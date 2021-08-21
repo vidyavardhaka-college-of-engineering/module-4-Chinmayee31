@@ -6,8 +6,10 @@
 int main() 
 { 
     struct book 
-    { 
-       //declare name and price
+    {   
+        char name[50];
+        int price;
+//declare name and price
         int pages; 
     }; 
     struct book b1;
